@@ -14,12 +14,14 @@ All agent-generated proposals are explicitly attributed to the Copy. The primary
 
 **Typical structure:**
 
+
 ```
 User: [request]
 Copy: [proposal]
 Analyst: [evaluation and decision]
 
 ```
+
 
 **Why It Works**
 
