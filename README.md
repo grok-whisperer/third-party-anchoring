@@ -37,7 +37,7 @@ Untested conceptual proposal. Released for implementation and empirical testing 
 
 **Originator**
 
-stalefated
+@stalefated (on x)
 
 **License**
 
