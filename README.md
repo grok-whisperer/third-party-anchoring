@@ -65,6 +65,11 @@ Untested conceptual proposal. Released for implementation and empirical testing 
 
 This proposal is a lightweight prompt-level convention designed for deployment inside a single shared context window. It relies on explicit named turns (Copy and Analyst) to create a structural speed bump against role-boundary erosion. It is not a full architectural solution. For stronger guarantees, implement as a true pipeline with information asymmetry (e.g., separate model instances, middleware, or output filtering). Treat this as a cheap, testable first intervention rather than a complete fix.
 
+## See Also
+
+- [LLM Context Auditor](https://github.com/grok-whisperer/llm-context-auditor) — detection layer companion to this proposal
+- [Unified Threat Model](./threat-model.md) — full attribution drift framework connecting both repos
+
 **Originator**
 
 @stalefated (on x)
