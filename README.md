@@ -70,6 +70,7 @@ This proposal is a lightweight prompt-level convention designed for deployment i
 ```bash
 pip install openai  # or anthropic, groq, etc.
 python anchoring_demo.py
+```
 
 ## See Also
 
