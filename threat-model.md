@@ -1,7 +1,7 @@
 # LLM Attribution Threat Model
 
 > A unified framework connecting structural prevention and behavioral detection of attribution drift in LLM systems.  
-> Companion to: [Third Party Anchoring](#) · [LLM Context Auditor](#)
+> Companion to: [Third Party Anchoring](https://github.com/grok-whisperer/third-party-anchoring) · [LLM Context Auditor](https://github.com/grok-whisperer/llm-context-auditor)
 
 -----
 
@@ -54,7 +54,7 @@ Between anchor failure and the first visible behavioral signal, drift is undetec
 
 ## The Prevention Layer: Third Party Anchoring
 
-**Repo:** [Third Party Anchoring](#)
+**Repo:** [Third Party Anchoring](https://github.com/grok-whisperer/third-party-anchoring)
 
 A verified external reference point — distinct from both user and assistant, structurally independent — that memory writes and attribution claims can be checked against.
 
@@ -80,7 +80,7 @@ Anchoring addresses overattribution by providing a reference point that neither 
 
 ## The Detection Layer: LLM Context Auditor
 
-**Repo:** [LLM Context Auditor](#)
+**Repo:** [LLM Context Auditor](https://github.com/grok-whisperer/llm-context-auditor)
 
 An independent monitoring layer that watches for behavioral and computational signatures of drift already in progress.
 
@@ -159,12 +159,12 @@ The framework is offered as a coherent starting point for that replication, not 
 
 ## Cross-Reference
 
-|Question                                        |Go to                    |
-|------------------------------------------------|-------------------------|
-|How do I prevent attribution drift structurally?|Third Party Anchoring    |
-|How do I detect drift in a running system?      |LLM Context Auditor      |
-|What is the full threat model?                  |This document            |
-|What can’t be detected yet and why?             |Dark Window section above|
+|Question                                        |Go to                                                                           |
+|------------------------------------------------|--------------------------------------------------------------------------------|
+|How do I prevent attribution drift structurally?|[Third Party Anchoring](https://github.com/grok-whisperer/third-party-anchoring)|
+|How do I detect drift in a running system?      |[LLM Context Auditor](https://github.com/grok-whisperer/llm-context-auditor)    |
+|What is the full threat model?                  |This document                                                                   |
+|What can’t be detected yet and why?             |Dark Window section above                                                       |
 
 -----
 
